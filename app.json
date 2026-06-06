@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Assistente Jurídico",
+    "slug": "assistente-juridico",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0f4c35",
+    "android": {
+      "package": "br.juridicoai.assistente",
+      "versionCode": 2,
+      "backgroundColor": "#0f4c35",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f4c35"
+      },
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "803117aa-fc3e-4287-8807-4dd7f3cf9acf"
+      }
+    }
+  }
+}
